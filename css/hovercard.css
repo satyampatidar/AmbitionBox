@@ -1,0 +1,28 @@
+#images {
+    margin-top: 0px;
+}
+
+#images li {
+    list-style: none;
+    margin-left: 10px;
+    position: relative;
+    float: left
+}
+
+
+.hovercard {
+    color: #33CC33;
+    clear: both;
+    float: none;
+    width: 200px;
+    background: #FF47D1;
+    padding: 10px;
+    font: 12px Arial, Helvetica, sans-serif;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: absolute;
+    top: 43px;
+    border: 2px solid #E640BC;
+    display: none;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Shivam Roy">
+            <title>Hover Card</title>
+            <!-- Bootstrap Core CSS -->
+            <link href="css/bootstrap.min.css" rel="stylesheet">
+            <!-- Custom CSS -->
+            <link href="css/hovercard.css" rel="stylesheet">
+            <link href="css/pagelayout.css" rel="stylesheet">
+    </head>
+    
+    <body style="background-color: #fcfdfd;">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <h2 style="color: #ffffff; font-style:normal; ">
+                Header Bar for Hover Card</h2>
+            </nav>
+        
+        <div id="images">
+            <li>
+                
+                <div class="hovercard">
+                    <h3>This is some title</h3>
+                    <p>This is some description. This is some description. This is some description. This is some description. This is some description. <a href="">This is some link.</a></p>
+                </div>  
+              
+                
+        <img src="button.gif">
+        <!-- Page Content -->
+        <div class="container">
+            
+           
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!-- Content Row -->
+            <div class="row">
+                <div class="col-md-4"  style="background-color: #33ccff; border: 1px solid #e2e3e3; border-radius: 10px;">
+                    <!-- personality Test Quiz One 1 -->
+                    
+                    <h1>Personality Test</h1>
+                    <p><big>Take this test and know everything about your personality .
+                        Know about your personality type and your character traits .Take this Test and get authentic results
+                        describing your personality.<br>
+                        You will be surprised by the accuracy of the results.</big></p>
+                    
+                   
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4"  style="background-color: #33ccff; border: 1px solid #e2e3e3; border-radius: 10px;">
+                    <!-- Relationship Test Quiz 2 Two -->
+                    
+                    <h1>Relationship Test</h1>
+                    <p><big>If you want to know how faithful or how dominating are you
+                        in your relations,or if you are the player type or the keeper,<br>
+                        Do you have the tendency to cheat on your partner or will you be the
+                        one cheated.Do you fall for a lot of people or are you the<br>
+                        charmer in the game. <br>
+                    </big></p>
+                    
+                   
+                </div>
+                <!-- /.col-md-4 -->
+                <div class="col-md-4"  style="background-color: #33ccff; border: 1px solid #e2e3e3; border-radius: 10px;">
+                    <!-- Your Job Personality Quiz 4 Four -->
+                    <h1>Your Job Personality</h1>
+                    <p><big>You have always wanted a job that would fetch you nice money
+                        with less
+                        work.Take this test and know which job suits your personality and will
+                        never make you regret that you took it up.Should you have been an
+                        Architect or a Fighter Jet Pilot ?<br>
+                    </big><br>
+                    </p>
+                    
+                </div>
+               
+            </div>
+            
+            
+            
+            
+                </div>
+                
+            </div>
+            
+            
+                    </div>
+        <!-- /.container -->
+        
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+        
+        <script type="text/javascript">
+            $('.hovercard').hover(function() {
+                                  $(this).stop(true, false).show();
+                                  }, function() {
+                                  $('.hovercard').hide();
+                                  });
+                                  $('#images li').hover(function() {
+                                                        $(this).find('.hovercard').delay(100).fadeIn(); // show() doesn't seem to work with delay
+                                                        }, function() {
+                                                        $(this).find('.hovercard').delay(100).fadeOut('fast');
+                                                        });            </script>
+
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+        
+        
+    </body></html>
